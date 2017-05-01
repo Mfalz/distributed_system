@@ -7,7 +7,7 @@
 $HADOOP_HOME/sbin/stop-dfs.sh
 
 # format my hdfs disk ( after reboot it's necessary! )
-if [[ -e /tmp/hadoop-ubuntu/dfs/data/current/ ]]
+if [[ -e /tmp/hadoop-ubuntu/dfs/name ]]
 then
 	echo "a dfs disk exists" 
 else

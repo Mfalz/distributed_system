@@ -10,11 +10,11 @@ This is the project for the course "Distributed Systems 1"
 
 2. Download hadoop 2.8 and unzip it in your home folder
 
-    <code>wget hadoop_url</code>
+    <code>wget http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.8.0/hadoop-2.8.0.tar.gz</code>
 
-    <code>tar xvf hadoop*.tar.jz</code>
+    <code>tar xvf hadoop-2.8.0.tar.gz</code>
 
-    <code>mv hadoop* ./hadoop</code>
+    <code>mv hadoop-2.8.0 ./hadoop</code>
 
 3. config hadoop to run as pseudo distributed system
 
