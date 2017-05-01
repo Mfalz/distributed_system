@@ -26,7 +26,9 @@ This is the project for the course "Distributed Systems 1"
 
     <code>
         ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+        
         cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+        
         chmod 0600 ~/.ssh/authorized_keys
     </code>
 
@@ -36,6 +38,7 @@ This is the project for the course "Distributed Systems 1"
     
     <code>
         cd distributed_system
+        
         ./start.sh
     </code>
 
