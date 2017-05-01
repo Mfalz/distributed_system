@@ -2,5 +2,7 @@
 # coming soon..
 import sys
 
+count = 0;
 for line in sys.stdin:
-	print line
+    count=count+1
+print count
