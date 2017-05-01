@@ -21,6 +21,7 @@ $HADOOP_HOME/sbin/start-dfs.sh
 # create a directory data inside the cluster
 $HADOOP_HOME/bin/hdfs dfs -mkdir /data
 
+echo "Putting data into the cluster, this task could take a lot of time..."
 # uploading my data into cluster
 $HADOOP_HOME/bin/hadoop fs -put ~/data/ /
 
