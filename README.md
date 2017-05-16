@@ -42,6 +42,8 @@ This is the project for the course "Distributed Systems 1"
         ./start.sh
     </code>
 
+
+
 ## Useful links
 NameNode at http://localhost:50070
 
